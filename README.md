@@ -1,5 +1,5 @@
 <h1 style="font-size: 3em; color: #4CAF50; text-shadow: 2px 2px 4px #000000; padding: 20px; border: 2px solid #4CAF50; border-radius: 10px; background-color: #f9f9f9; display: inline-block;">
-    😊 Hello </coders> 😊
+    😊 Hello <span style="color: #FF5722;">&#60;/coders&#62;</span> 😊
 </h1>
 
 <h1 style:"color:red; ">Snake Game</h1>
