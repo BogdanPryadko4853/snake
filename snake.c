@@ -9,7 +9,7 @@
 float cool_down = 0;
 
 const short LVL[LVL_COUNT][FIELD_HEIGHT][FIELD_WIDTH] = {
-        // LVL 0
+
         {
                 {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
                 {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
