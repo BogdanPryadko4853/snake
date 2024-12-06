@@ -1,6 +1,14 @@
 
 <h1>Snake Game</h1>
 
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40" alt="c logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cmake/cmake-original.svg" height="40" alt="cmake logo"  />
+</div>
+
+###
+
 <img src="image/gm1.png" alt="Snake Game"> 
 
 <h2>Описание</h2>
@@ -8,9 +16,9 @@
 
 <h2>Технологии</h2>
 <ul>
-    <li><strong>Язык программирования:</strong> C</li>
+    <li><strong>Язык программирования:</strong> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40" alt="c logo"  /></li>
     <li><strong>Библиотека:</strong> <a href="https://www.raylib.com/">raylib</a></li>
-    <li><strong>Сборка:</strong> CMake</li>
+    <li><strong>Сборка:</strong> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cmake/cmake-original.svg" height="40" alt="cmake logo"  /></li>
 </ul>
 
 <h2>Установка и запуск</h2>
