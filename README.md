@@ -39,9 +39,9 @@ cd build</code></pre>
 
 <h2>Примеры игры</h2>
 <img src="image/gm1.png" alt="Пример игры 1"> 
-<img src="image/gm2" alt="Пример игры 2"> 
-<img src="image/lwl1" alt="Уровень 1 "> 
-<img src="image/lwl2" alt="Уровень 2  "> 
+<img src="image/gm2.png" alt="Пример игры 2"> 
+<img src="image/lwl1.png" alt="Уровень 1 "> 
+<img src="image/lwl2.png" alt="Уровень 2  "> 
 
 <h2>Управление</h2>
 <ul>
@@ -59,5 +59,3 @@ cd build</code></pre>
 ├── snake.c
 └── snake.h</code></pre>
 
-</body>
-</html>
