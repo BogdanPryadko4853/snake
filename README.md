@@ -1,3 +1,7 @@
+<h1 style="font-size: 3em; color: #4CAF50; text-shadow: 2px 2px 4px #000000; padding: 20px; border: 2px solid #4CAF50; border-radius: 10px; background-color: #f9f9f9; display: inline-block;">
+    😊 Hello coders 😊
+</h1>
+
 <h1 style:"color:red; ">Snake Game</h1>
 
 <img src="image/gm1.png" alt="Snake Game">
