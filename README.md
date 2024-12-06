@@ -1,59 +1,60 @@
-<h1>Snake Game</h1>
+<h1 style:"color:red; ">Snake Game</h1>
 
+<img src="image/gm1.png" alt="Snake Game">
 
-###
+<h2>Description</h2>
+<p>This is a simple implementation of the classic "Snake" game using the <a href="https://www.raylib.com/">raylib</a> library. The game supports multiple difficulty levels and various game levels.</p>
 
-<img src="image/gm1.png" alt="Snake Game"> 
-
-<h2>Описание</h2>
-<p>Это простая реализация классической игры "Змейка" с использованием библиотеки <a href="https://www.raylib.com/">raylib</a>. Игра поддерживает несколько уровней сложности и различные уровни игры.</p>
-
-<h2>Технологии</h2>
+<h2>Technologies</h2>
 <ul>
-    <li><strong>Язык программирования:</strong> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="30" alt="c logo"  /></li>
-    <li><strong>Библиотека:</strong> <a href="https://www.raylib.com/"><img src="https://avatars.mds.yandex.net/i?id=874a304279b87fa33dd7e9506ead1e04_l-5210344-images-thumbs&n=13" height="30" alt="cmake logo"  /></a></li>
-    <li><strong>Сборка:</strong> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cmake/cmake-original.svg" height="30" alt="cmake logo"  /></li>
+    <li><strong>Programming Language:</strong> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="30" alt="c logo"  /> C</li>
+    <li><strong>Library:</strong> <a href="https://www.raylib.com/"><img src="https://avatars.mds.yandex.net/i?id=874a304279b87fa33dd7e9506ead1e04_l-5210344-images-thumbs&n=13" height="30" alt="cmake logo"  /></a> raylib</li>
+    <li><strong>Build System:</strong> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cmake/cmake-original.svg" height="30" alt="cmake logo"  /> CMake</li>
 </ul>
 
-<h2>Установка и запуск</h2>
-<h3>Требования</h3>
+<h2>Installation and Running</h2>
+<h3>Requirements</h3>
 <ul>
-    <li>CMake 3.10 или выше</li>
-    <li>Компилятор C (например, GCC или Clang)</li>
-    <li>raylib (автоматически скачивается и устанавливается через CMake)</li>
+    <li>CMake 3.10 or higher</li>
+    <li>C Compiler (e.g., GCC or Clang)</li>
+    <li>raylib (automatically downloaded and installed via CMake)</li>
 </ul>
 
-<h3>Инструкции по установке</h3>
+<h3>Installation Instructions</h3>
 <ol>
-    <li>Клонируйте репозиторий:</li>
+    <li>Clone the repository:</li>
     <pre><code>git clone https://github.com/BogdanPryadko4853/snake.git
-cd ваш-репозиторий</code></pre>
-    <li>Создайте директорию для сборки и перейдите в нее:</li>
+cd snake</code></pre>
+    <li>Create a build directory and navigate into it:</li>
     <pre><code>mkdir build
 cd build</code></pre>
-    <li>Сгенерируйте файлы сборки с помощью CMake:</li>
+    <li>Generate the build files using CMake:</li>
     <pre><code>cmake ..</code></pre>
-    <li>Соберите проект:</li>
+    <li>Build the project:</li>
     <pre><code>make</code></pre>
-    <li>Запустите игру:</li>
+    <li>Run the game:</li>
     <pre><code>./snake</code></pre>
 </ol>
 
-<h2>Примеры игры</h2>
-<img src="image/gm1.png" alt="Пример игры 1"> 
-<img src="image/gm2.png" alt="Пример игры 2"> 
-<img src="image/lwl1.png" alt="Уровень 1 "> 
-<img src="image/lwl2.png" alt="Уровень 2  "> 
+<h2>Game Examples</h2>
+<div class="game-examples">
+    <img src="image/gm1.png" alt="Game Example 1">
+    <img src="image/gm2.png" alt="Game Example 2">
+</div>
+<div class="game-examples">
+    <img src="image/lwl1.png" alt="Level 1">
+    <img src="image/lwl2.png" alt="Level 2">
+</div>
 
-<h2>Управление</h2>
+<h2>Controls</h2>
 <ul>
-    <li><strong>Стрелки</strong> или <strong>WASD</strong> для управления змейкой.</li>
-    <li><strong>Enter</strong> для начала игры или выбора уровня.</li>
-    <li><strong>R</strong> для перезапуска уровня.</li>
-    <li><strong>F</strong> для перезапуска игры после проигрыша.</li>
+    <li><strong>Arrow Keys</strong> or <strong>WASD</strong> to control the snake.</li>
+    <li><strong>Enter</strong> to start the game or select a level.</li>
+    <li><strong>R</strong> to restart the level.</li>
+    <li><strong>F</strong> to restart the game after losing.</li>
 </ul>
 
-<h2>Структура проекта</h2>
+<h2>Project Structure</h2>
 <pre><code>snake-game/
 ├── CMakeLists.txt
 ├── README.md
