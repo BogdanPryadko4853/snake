@@ -1,40 +1,7 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snake Game</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        code {
-            background-color: #f4f4f4;
-            padding: 2px 4px;
-            border-radius: 4px;
-        }
-        pre {
-            background-color: #f4f4f4;
-            padding: 10px;
-            border-radius: 4px;
-            overflow-x: auto;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 4px;
-        }
-    </style>
-</head>
-<body>
 
 <h1>Snake Game</h1>
 
-<img src="https://via.placeholder.com/150" alt="Snake Game"> <!-- Замените на ссылку на реальное изображение -->
+<img src="image/gm1.png" alt="Snake Game"> 
 
 <h2>Описание</h2>
 <p>Это простая реализация классической игры "Змейка" с использованием библиотеки <a href="https://www.raylib.com/">raylib</a>. Игра поддерживает несколько уровней сложности и различные уровни игры.</p>
@@ -57,7 +24,7 @@
 <h3>Инструкции по установке</h3>
 <ol>
     <li>Клонируйте репозиторий:</li>
-    <pre><code>git clone https://github.com/BogdanPryadko4853/ваш-репозиторий.git
+    <pre><code>git clone https://github.com/BogdanPryadko4853/snake.git
 cd ваш-репозиторий</code></pre>
     <li>Создайте директорию для сборки и перейдите в нее:</li>
     <pre><code>mkdir build
@@ -71,7 +38,7 @@ cd build</code></pre>
 </ol>
 
 <h2>Примеры игры</h2>
-<img src="image/gm1" alt="Пример игры 1"> 
+<img src="image/gm1.png" alt="Пример игры 1"> 
 <img src="image/gm2" alt="Пример игры 2"> 
 <img src="image/lwl1" alt="Уровень 1 "> 
 <img src="image/lwl2" alt="Уровень 2  "> 
